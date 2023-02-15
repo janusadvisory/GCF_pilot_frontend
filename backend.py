@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import pandas as pd
+# import pandas as pd
 import sys
 # from score_prop import score_proposal
 from score_section import score_section
