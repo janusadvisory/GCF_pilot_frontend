@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <title>GCF Proposal Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <body>
+  <!-- Sidebar -->
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+      <a href="main.html"><h3 class="w3-bar-item">Menu</h3></a>
+      <div class="subnav">
+        <button class="w3-bar-item w3-button w3-hover-green">Analyze the Proposal <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <div class="subsubnav">
+            <button class="w3-bar-item w3-button w3-hover-green">Impact Potential <i class="fa fa-caret-down"></i></button>
+            <div class="subsubnav-content">
+              <button id="1" class="w3-bar-item w3-button w3-hover-green">Contribution to shift to low emissions</button>
+              <button id="2" class="w3-bar-item w3-button w3-hover-green">Contribution to Increased Climate Resilient Sustainable</button>
+              <button id="3" class="w3-bar-item w3-button w3-hover-green"  onclick='climate_context_change()'>Climate Change Context</button>
+            </div>
+          </div>
+          <div class="subsubnav">
+            <button class="w3-bar-item w3-button w3-hover-green">Paradigm Shift Potential <i class="fa fa-caret-down"></i></button>
+            <div class="subsubnav-content">
+              <button id="4" class="w3-bar-item w3-button w3-hover-green">Innovation</button>
+              <button id="5" class="w3-bar-item w3-button w3-hover-green">Potential for Expanding Scale and Impact</button>
+              <button id="7" class="w3-bar-item w3-button w3-hover-green">Contribution to the Strengthening or Knowledge</button>
+              <button id="8" class="w3-bar-item w3-button w3-hover-green">Sustainability of Outcomes Beyond Completion</button>
+              <button id="9" class="w3-bar-item w3-button w3-hover-green">Market Transformation</button>
+              <button id="10" class="w3-bar-item w3-button w3-hover-green">Potential for Strengthening Regulatory Frameworks</button>
+            </div>
+          </div>
+          <div class="subsubnav">
+            <button class="w3-bar-item w3-button w3-hover-green">Sustianable Development Potential <i class="fa fa-caret-down"></i></button>
+            <div class="subsubnav-content">
+              <button id="13" class="w3-bar-item w3-button w3-hover-green">Environmental co-benefits</button>
+              <button id="14" class="w3-bar-item w3-button w3-hover-green">Expected positive social and health impacts</button>
+              <button id="15" class="w3-bar-item w3-button w3-hover-green">Economic co-benefits</button>
+              <button id="16" class="w3-bar-item w3-button w3-hover-green">Gender-responsive measures</button>
+            </div>
+          </div>
+          <div class="subsubnav">
+            <button class="w3-bar-item w3-button w3-hover-green">Needs Of The Recipient <i class="fa fa-caret-down"></i></button>
+            <div class="subsubnav-content">
+              <button id="17" class="w3-bar-item w3-button w3-hover-green">Scale and intensity of exposure</button>
+              <button id="19" class="w3-bar-item w3-button w3-hover-green">Country-level socio-economic development</button>
+              <button id="20" class="w3-bar-item w3-button w3-hover-green">Opportunity of the fund to overcome specific barriers</button>
+              <button id="21" class="w3-bar-item w3-button w3-hover-green">Opportunities to Strengthen institutional capacities</button>
+            </div>
+          </div>
+          <div class="subsubnav">
+            <button class="w3-bar-item w3-button w3-hover-green">Country Ownership <i class="fa fa-caret-down"></i></button>
+            <div class="subsubnav-content">
+              <button id="22" class="w3-bar-item w3-button w3-hover-green">Objectives in line with priorities in the country’s national climate strategy</button>
+              <button id="23" class="w3-bar-item w3-button w3-hover-green">Activity in cognizance of other country policies</button>
+              <button id="24" class="w3-bar-item w3-button w3-hover-green">Experience and Track Record of the AE</button>
+              <button id="25" class="w3-bar-item w3-button w3-hover-green">Stakeholders Consultation and Engagement</button>
+            </div>
+          </div>
+          <div class="subsubnav">
+            <button class="w3-bar-item w3-button w3-hover-green">Efficiency & Effectiveness <i class="fa fa-caret-down"></i></button>
+            <div class="subsubnav-content">
+              <button id="26" class="w3-bar-item w3-button w3-hover-green">Financial Adequacy and Appropriateness</button>
+              <button id="27" class="w3-bar-item w3-button w3-hover-green">Cost Effectiveness (Mitigation)</button>
+              <button id="28" class="w3-bar-item w3-button w3-hover-green">- Potential to catalyze and leverage</button>
+              <button id="30" class="w3-bar-item w3-button w3-hover-green">- Financial Viability</button>
+              <button id="31" class="w3-bar-item w3-button w3-hover-green">Application of Best Practices/button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="w3-bar-item w3-button w3-hover-green">Analyze a Concept Note <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="#" class="w3-bar-item w3-button w3-hover-green">Action 1</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-green">Action 2</a>
+        </div>
+      </div>
+    </div>
+    <div style="margin-left:25%">
+      <div class="w3-container w3-green">
+        <h1>GCF Proposal Support</h1>
+      </div>
+      <div class="w3-container">
+        <p>Please select the task you want to accomplish from the bar menu at your left</p>
+        <br>
+      </div>
+      <div id='climate_context' class="textarea-container hidden">
+        <div class="w3-container" id='top_info'>
+          <h3 id='top_info_h3'>Subcriteria : 2/32 Climate Vulnerability Context (Max word count : 2000)</h3>
+        </div>
+        <textarea id="textarea"></textarea>
+
+        <div class="word-count-container">
+          <span class="word-count"><span id="word-count">0</span> / 2000</span>
+        </div>
+        <button id='submit-btn' class="w3-button w3-border w3-hover-green" onclick="submit_section()">Submit</button>
+        <div id='msg' class='hidden'>
+          <p>Please do not exceed 2000 words.</p>
+        </div>
+        <div id='loading-data' class='hidden'>
+          <div class="center">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+  let textarea = document.getElementById("textarea");
+  let wordCount = document.getElementById("word-count");
+
+  textarea.addEventListener("input", function() {
+    let words = this.value.split(/\s+/).filter(function(word) {
+      return word.length > 0;
+    });
+    wordCount.textContent = words.length;
+    if(words.length > 2000){
+      msg = document.getElementById('msg');
+      msg.classList.remove('hidden');
+    }
+    else{
+      msg = document.getElementById('msg');
+      msg.classList.add('hidden');
+    }
+  });
+    function submit_section(){
+
+      var textarea = document.getElementById('textarea');
+
+      var word_count = textarea.value.split(' ').length;
+
+      if (word_count < 2000){
+        loading_data = document.getElementById('loading-data');
+        loading_data.style.display = 'block';
+        textarea.style.background = '#C8C8C8';
+        textarea.disabled = true;
+        fetch('http://127.0.0.1:5000/scoreSection',
+          {
+            method: 'POST',
+            headers: {
+              'Content-type': 'application/json',
+              'Accept': 'application/json'
+            },
+            body:JSON.stringify({'text':textarea.value})}).then(res=>{
+              if(res.ok){
+                return res.json()
+              }else{
+                alert("something is wrong")
+              }
+            }).then(jsonResponse=>{
+              top_info = document.getElementById('top_info_h3');
+              let wordCount = document.getElementById("word-count");
+
+              top_info.innerHTML = 'RESULTS : The score for this subcriteria:2/32 Climate Vulnerability Context is : ' +jsonResponse['score'];
+
+              loading_data.style.display = '';
+
+
+              textarea.style.background = '#E8E8E8';
+              textarea.disabled = false;
+              textarea.value = '';
+              textarea.value = 'Here is what we found...\n'+jsonResponse['answer'];
+
+              wordCount.textContent = textarea.value.split(' ').length;
+
+            }
+          ).catch((err) => console.error(err));
+      }
+
+    }
+    function climate_context_change(){
+      climate_context = document.getElementById('climate_context');
+      title = document.getElementsByClassName('w3-container');
+      climate_context.classList.remove('hidden');
+      title[1].classList.add('hidden');
+    }
+
+  </script>
+</html>
