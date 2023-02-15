@@ -278,17 +278,17 @@
 }
 
 .textarea-container {
-  width: 800px;
+  width: 750px;
   box-sizing: border-box;
   /* border: solid 2px green; */
   margin: 10px auto;
-  margin-top: 120px;
-  margin-left: 200px;
+  margin-top: 90px;
+  margin-left: 120px;
   /* position: relative; */
 }
 
 textarea {
-  width: 800px;
+  width: 750px;
   height: 400px;
   padding: 10px;
   font-size: 16px;
